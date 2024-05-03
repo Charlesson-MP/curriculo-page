@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    margin: 0px auto;
+    max-width: 800px;
+}
+
+aside {
+    background-color: #191b1d;
+    color: white;
+    width: 40vw;
+    padding: 20px;
+}
+
+aside > img {
+    width: 100%;
+}
+
+aside > hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside > h2 {
+    margin: 0px;
+    font-size: 1.3em;
+}
+
+aside > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+aside > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    width: 60vw;
+    padding: 20px;
+}
+
+section > h1 {
+    margin: 0px;
+}
+
+section > div > h3, h4 {
+    margin: 0px;
+}
+
+section > div > p {
+    margin-top: 0px;
+}
